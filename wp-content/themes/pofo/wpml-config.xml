@@ -1,0 +1,704 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">portfolio</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">portfolio-category</taxonomy>
+    <taxonomy translate="1">portfolio-tags</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="theme_mods_pofo">
+      <key name="blogname"/>
+      <key name="blogdescription"/>
+      <key name="pofo_page_not_found_title"/>
+      <key name="pofo_page_not_found_subtitle"/>
+      <key name="pofo_page_not_found_content"/>
+      <key name="pofo_page_not_found_button_text"/>
+      <key name="pofo_portfolio_url_slug"/>
+      <key name="pofo_portfolio_cat_url_slug"/>
+      <key name="pofo_portfolio_tags_url_slug"/>
+      <key name="pofo_search_placeholder_text"/>
+      <key name="pofo_related_posts_title"/>
+      <key name="pofo_button_text_archive"/>
+      <key name="pofo_single_portfolio_share_title"/>
+      <key name="pofo_related_single_portfolio_title"/>
+      <key name="pofo_related_single_portfolio_content"/>
+      <key name="pofo_portfolio_navigation_nextlink_text"/>
+      <key name="pofo_portfolio_navigation_priviouslink_text"/>
+      <key name="pofo_default_post_title_default"/>
+      <key name="pofo_button_text_default"/>
+      <key name="pofo_button_text_sticky"/>
+      <key name="pofo_page_title_subtitle"/>
+      <key name="pofo_single_post_title_subtitle"/>
+      <key name="pofo_archive_title_subtitle"/>
+      <key name="pofo_default_title_subtitle"/>
+      <key name="pofo_single_portfolio_title_subtitle"/>
+      <key name="pofo_single_portfolio_breadcrumb_text"/>
+      <key name="pofo_portfolio_archive_title_subtitle"/>
+      <key name="pofo_portfolio_archive_title_breadcrumb_portfolio_text"/>
+      <key name="pofo_footer_wrapper_text"/>
+      <key name="pofo_before_social_icons_text"/>
+      <key name="pofo_footer_bottom_left_text"/>
+      <key name="pofo_footer_bottom_right_text"/>
+      <key name="pofo_header_copyright_text"/>
+      <key name="pofo_author_box_button_title"/>
+      <key name="pofo_portfolio_archive_page_title_text"/>
+    </key>
+  </admin-texts>
+  <custom-fields>
+    <!-- Post -->
+    <!-- Layout Setting -->
+    <custom-field action="copy" label="Layout Setting">_pofo_single_post_layout_setting_single</custom-field>
+    <custom-field action="copy" label="Left Sidebar">_pofo_single_post_left_sidebar_single</custom-field>
+    <custom-field action="copy" label="Right Sidebar">_pofo_single_post_right_sidebar_single</custom-field>
+    <custom-field action="copy" label="Container Style">_pofo_single_post_container_style_single</custom-field>
+    <custom-field action="copy" label="Main Section Top Space">_pofo_main_top_section_space_single</custom-field>
+    <custom-field action="copy" label="Main Section Bottom Space">_pofo_main_bottom_section_space_single</custom-field>
+    <custom-field action="copy" label="Body Background Color">_pofo_body_background_color_single</custom-field>
+    <custom-field action="copy" label="Body Background Image">_pofo_post_body_background_image_single</custom-field>
+    <custom-field action="copy" label="Body Background Size">_pofo_post_background_size_single</custom-field>
+    <custom-field action="copy" label="Body Background Position">_pofo_post_background_postion_single</custom-field>
+    <custom-field action="copy" label="Body Background Attachment">_pofo_post_background_attachment_single</custom-field>
+    <custom-field action="copy" label="Body Background Repeat">_pofo_post_background_repeat_single</custom-field>
+    <!-- Header -->
+    <custom-field action="copy" label="Box Layout">_pofo_enable_box_layout_single</custom-field>
+    <custom-field action="copy" label="Header">_pofo_disable_header_single</custom-field>
+    <custom-field action="copy" label="Logo">_pofo_disable_header_logo_single</custom-field>
+    <custom-field action="copy" label="Logo">_pofo_pofo_logo_single</custom-field>
+    <custom-field action="copy" label="Logo (Light)">_pofo_logo_light_single</custom-field>
+    <custom-field action="copy" label="Retina Logo">_pofo_logo_ratina_single</custom-field>
+    <custom-field action="copy" label="Retina Logo (Light)">_pofo_logo_light_ratina_single</custom-field>
+    <custom-field action="copy" label="Logo Site Url">_pofo_logo_site_url_single</custom-field>
+    <custom-field action="translate" label="Logo Url">_pofo_logo_url_single</custom-field>
+    <custom-field action="copy" label="SVG Width">_pofo_header_svg_width_single</custom-field>
+    <custom-field action="copy" label="Logo Max Height">_pofo_header_logo_max_height_single</custom-field>
+    <custom-field action="copy" label="Container Style">_pofo_header_container_style_single</custom-field>
+    <custom-field action="copy" label="Header Style">_pofo_header_type_single</custom-field>
+    <custom-field action="copy" label="Menu">_pofo_header_menu_single</custom-field>
+    <custom-field action="copy" label="Secondary Menu">_pofo_header_secondary_menu_single</custom-field>
+    <custom-field action="copy" label="Sticky Type">_pofo_header_nav_type_single</custom-field>
+    <custom-field action="copy" label="Center Menu">_pofo_menu_position_center_single</custom-field>
+    <custom-field action="copy" label="Logo Position">_pofo_logo_position_single</custom-field>
+    <custom-field action="copy" label="Search">_pofo_disable_header_search_single</custom-field>
+    <custom-field action="copy" label="Header Sidebar">_pofo_disable_header_sidebar_single</custom-field>
+    <custom-field action="copy" label="Select Sidebar">_pofo_header_sidebar_single</custom-field>
+    <custom-field action="copy" label="Sidebar Position">_pofo_header_sidebar_position_single</custom-field>
+    <custom-field action="copy" label="Slide Menu">_pofo_disable_slide_menu_single</custom-field>
+    <custom-field action="copy" label="Slide Menu Sidebar">_pofo_slide_menu_sidebar_single</custom-field>
+    <custom-field action="copy" label="Mini Cart">_pofo_enable_header_mini_cart_single</custom-field>
+    <custom-field action="copy" label="Mini Cart Sidebar">_pofo_header_mini_cart_sidebar_single</custom-field>
+    <custom-field action="copy" label="Mini Cart Counter">_pofo_enable_header_mini_cart_counter_single</custom-field>
+    <custom-field action="copy" label="Menu Vertical Text Image">_pofo_menu_vertical_image_single</custom-field>
+    <custom-field action="copy" label="Copyright">_pofo_disable_header_copyright_single</custom-field>
+    <custom-field action="translate" label="Copyright Text">_pofo_header_copyright_text_single</custom-field>
+    <custom-field action="copy" label="Copyright Text Color">_pofo_header_copyright_text_color_single</custom-field>
+    <custom-field action="copy" label="Menu Text Font Size">_pofo_header_menu_text_font_size_single</custom-field>
+    <custom-field action="copy" label="Menu Text Line Height">_pofo_header_menu_text_line_height_single</custom-field>
+    <custom-field action="copy" label="Menu Text Character Spacing">_pofo_header_menu_text_letter_spacing_single</custom-field>
+    <custom-field action="copy" label="Menu Text Transform">_pofo_header_menu_text_transform_single</custom-field>
+    <custom-field action="copy" label="Icon Font Size">_pofo_header_menu_icon_font_size_single</custom-field>
+    <custom-field action="copy" label="Background Color">_pofo_header_background_color_single</custom-field>
+    <custom-field action="copy" label="Menu Text Color">_pofo_menu_text_color_single</custom-field>
+    <custom-field action="copy" label="Menu Hover Text Color">_pofo_menu_hover_text_color_single</custom-field>
+    <custom-field action="copy" label="Sticky Header Background Color">_pofo_sticky_header_background_color_single</custom-field>
+    <custom-field action="copy" label="Sticky Menu Text Color">_pofo_sticky_menu_text_color_single</custom-field>
+    <custom-field action="copy" label="Sticky Menu Text Hover Color">_pofo_sticky_menu_hover_text_color_single</custom-field>
+    <custom-field action="copy" label="Mobile Menu Background Color">_pofo_header_mobile_menu_background_color_single</custom-field>
+    <custom-field action="copy" label="Mobile Menu Text Color">_pofo_header_mobile_menu_text_color_single</custom-field>
+    <custom-field action="copy" label="Mobile Menu Text Hover Color">_pofo_header_mobile_menu_hover_color_single</custom-field>
+    <custom-field action="copy" label="Mobile Submenu Background Color">_pofo_header_mobile_submenu_background_color_single</custom-field>
+    <custom-field action="copy" label="Mobile Submenu Heading Color">_pofo_header_mobile_submenu_heading_color_single</custom-field>
+    <custom-field action="copy" label="Mobile Submenu Text Color">_pofo_header_mobile_submenu_text_color_single</custom-field>
+    <custom-field action="copy" label="Mobile Submenu Text Hover Color">_pofo_header_mobile_submenu_hover_color_single</custom-field>
+    <custom-field action="copy" label="Menu Text Font Size">_pofo_hamburger_menu_text_font_size_single</custom-field>
+    <custom-field action="copy" label="Menu Text Line Height">_pofo_hamburger_menu_text_line_height_single</custom-field>
+    <custom-field action="copy" label="Menu Text Character Spacing">_pofo_hamburger_menu_text_letter_spacing_single</custom-field>
+    <custom-field action="copy" label="Menu Text Transform">_pofo_hamburger_menu_text_transform_single</custom-field>
+    <custom-field action="copy" label="Icon Font Size">_pofo_hamburger_menu_icon_font_size_single</custom-field>
+    <custom-field action="copy" label="Menu Background Color">_pofo_menu_background_color_single</custom-field>
+    <custom-field action="copy" label="Menu Text Color">_pofo_hamburger_menu_text_color_single</custom-field>
+    <custom-field action="copy" label="Menu Text Hover Color">_pofo_hamburger_menu_hover_text_color_single</custom-field>
+    <custom-field action="copy" label="Background Image">_pofo_menu_background_image_single</custom-field>
+    <custom-field action="copy" label="Logo">_pofo_menu_background_logo_single</custom-field>
+    <custom-field action="copy" label="Ratina Logo">_pofo_menu_background_logo_ratina_single</custom-field>
+    <custom-field action="copy" label="Background Overlay Color">_pofo_menu_background_overlay_color_single</custom-field>
+    <custom-field action="copy" label="Background Overlay Opacity">_pofo_menu_background_overlay_opacity_single</custom-field>
+    <custom-field action="copy" label="Hamburger Menu Sidebar">_pofo_disable_hamburger_menu_sidebar_single</custom-field>
+    <custom-field action="copy" label="Select Hamburger Menu Sidebar">_pofo_hamburger_menu_sidebar_single</custom-field>
+    <!-- Page Title -->
+    <custom-field action="copy" label="Title">_pofo_disable_single_post_title_single</custom-field>
+    <custom-field action="copy" label="Style">_pofo_single_post_title_style_single</custom-field>
+    <custom-field action="copy" label="Title Heading">_pofo_enable_single_post_title_heading_single</custom-field>
+    <custom-field action="copy" label="Title Animation">_pofo_disable_single_post_title_animation_single</custom-field>
+    <custom-field action="copy" label="Animation">_pofo_single_post_title_animation_single</custom-field>
+    <custom-field action="copy" label="Text Case">_pofo_single_post_title_text_transform_single</custom-field>
+    <custom-field action="copy" label="Subtitle">_pofo_disable_single_post_subtitle_single</custom-field>
+    <custom-field action="translate" label="Subtitle">_pofo_single_post_title_subtitle_single</custom-field>
+    <custom-field action="copy" label="Enable Background Image">_pofo_disable_single_post_title_image_single</custom-field>
+    <custom-field action="copy" label="Background Image">_pofo_single_post_title_bg_image_single</custom-field>
+    <custom-field action="copy" label="Background Gallery Images">_pofo_single_post_title_bg_multiple_image_single</custom-field>
+    <custom-field action="translate" label="Next Section ID">_pofo_single_post_title_callto_section_id_single</custom-field>
+    <custom-field action="copy" label="Video type">_pofo_single_post_title_video_type_single</custom-field>
+    <custom-field action="translate" label="MP4">_pofo_single_post_title_video_mp4_single</custom-field>
+    <custom-field action="translate" label="OGG">_pofo_single_post_title_video_ogg_single</custom-field>
+    <custom-field action="translate" label="WEBM">_pofo_single_post_title_video_webm_single</custom-field>
+    <custom-field action="translate" label="External video url">_pofo_single_post_title_video_youtube_single</custom-field>
+    <custom-field action="copy" label="Parallax effects">_pofo_single_post_title_parallax_effect_single</custom-field>
+    <custom-field action="copy" label="Page title Opacity">_pofo_single_post_title_opacity_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb">_pofo_single_post_disable_breadcrumb_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Heading">_pofo_single_post_enable_breadcrumb_heading_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Position">_pofo_post_single_title_breadcrumb_position_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Alignment">_pofo_post_single_title_breadcrumb_alignment_single</custom-field>
+    <custom-field action="copy" label="Opacity Color">_pofo_single_post_title_opacity_color_single</custom-field>
+    <custom-field action="copy" label="Background Color">_pofo_single_post_title_bg_color_single</custom-field>
+    <custom-field action="copy" label="Title Text Color">_pofo_single_post_title_color_single</custom-field>
+    <custom-field action="copy" label="Subtitle Text Color">_pofo_single_post_subtitle_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Background">_pofo_single_post_title_breadcrumb_bg_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Border">_pofo_single_post_title_breadcrumb_border_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Text Color">_pofo_single_post_title_breadcrumb_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Text Hover Color">_pofo_single_post_title_breadcrumb_text_hover_color_single</custom-field>
+    <custom-field action="copy" label="Meta Color">_pofo_single_post_meta_color_single</custom-field>
+    <custom-field action="copy" label="Meta Hover Color">_pofo_single_post_meta_hover_color_single</custom-field>
+    <!-- Comments Settings -->
+    <custom-field action="copy" label="Comment">_pofo_hide_comment_single</custom-field>
+    <!-- Footer Wrapper -->
+    <custom-field action="copy" label="Footer Wrapper">_pofo_disable_footer_wrapper_single</custom-field>
+    <custom-field action="copy" label="Style">_pofo_footer_wrapper_style_single</custom-field>
+    <custom-field action="copy" label="Container Style">_pofo_footer_wrapper_container_fluid_single</custom-field>
+    <custom-field action="translate" label="Text">_pofo_footer_wrapper_text_single</custom-field>
+    <custom-field action="translate" label="Right Text">_pofo_footer_wrapper_right_text_single</custom-field>
+    <custom-field action="copy" label="Logo">_pofo_footer_logo_image_single</custom-field>
+    <custom-field action="copy" label="Retina Logo">_pofo_footer_retina_logo_image_single</custom-field>
+    <custom-field action="translate" label="Logo URL">_pofo_footer_logo_url_single</custom-field>
+    <custom-field action="copy" label="Padding Style">_pofo_footer_wrapper_padding_setting_single</custom-field>
+    <custom-field action="copy" label="Background Color">_pofo_footer_wrapper_bg_color_single</custom-field>
+    <custom-field action="copy" label="Footer Wrapper Text Color">_pofo_footer_wrapper_text_color_single</custom-field>
+    <custom-field action="copy" label="Footer Wrapper Link Color">_pofo_footer_wrapper_link_color_single</custom-field>
+    <custom-field action="copy" label="Footer Wrapper Link Hover Color">_pofo_footer_wrapper_link_hover_color_single</custom-field>
+    <!-- Footer Middle -->
+    <custom-field action="copy" label="Footer">_pofo_disable_footer_single</custom-field>
+    <custom-field action="copy" label="Style">_pofo_footer_style_single</custom-field>
+    <custom-field action="copy" label="Container Style">_pofo_footer_container_fluid_single</custom-field>
+    <custom-field action="copy" label="Column 1 Sidebar?">_pofo_disable_footer_sidebar1_single</custom-field>
+    <custom-field action="copy" label="Column 1 Sidebar">_pofo_footer_sidebar1_single</custom-field>
+    <custom-field action="copy" label="Sidebar 1 Column ( Desktop )">_pofo_footer_sidebar1_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 1 Column ( Mini Desktop )">_pofo_footer_sidebar1_mini_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 1 Column ( Ipad )">_pofo_footer_sidebar1_ipad_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 1 Column ( Mobile )">_pofo_footer_sidebar1_mobile_column_single</custom-field>
+    <custom-field action="copy" label="Column 2 Sidebar?">_pofo_disable_footer_sidebar2_single</custom-field>
+    <custom-field action="copy" label="Column 2 Sidebar">_pofo_footer_sidebar2_single</custom-field>
+    <custom-field action="copy" label="Sidebar 2 Column ( Desktop )">_pofo_footer_sidebar2_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 2 Column ( Mini Desktop )">_pofo_footer_sidebar2_mini_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 2 Column ( Ipad )">_pofo_footer_sidebar2_ipad_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 2 Column ( Mobile )">_pofo_footer_sidebar2_mobile_column_single</custom-field>
+    <custom-field action="copy" label="Column 3 Sidebar?">_pofo_disable_footer_sidebar3_single</custom-field>
+    <custom-field action="copy" label="Column 3 Sidebar">_pofo_footer_sidebar3_single</custom-field>
+    <custom-field action="copy" label="Sidebar 3 Column ( Desktop )">_pofo_footer_sidebar3_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 3 Column ( Mini Desktop )">_pofo_footer_sidebar3_mini_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 3 Column ( Ipad )">_pofo_footer_sidebar3_ipad_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 3 Column ( Mobile )">_pofo_footer_sidebar3_mobile_column_single</custom-field>
+    <custom-field action="copy" label="Column 4 Sidebar?">_pofo_disable_footer_sidebar4_single</custom-field>
+    <custom-field action="copy" label="Column 4 Sidebar">_pofo_footer_sidebar4_single</custom-field>
+    <custom-field action="copy" label="Sidebar 4 Column ( Desktop )">_pofo_footer_sidebar4_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 4 Column ( Mini Desktop )">_pofo_footer_sidebar4_mini_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 4 Column ( Ipad )">_pofo_footer_sidebar4_ipad_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 4 Column ( Mobile )">_pofo_footer_sidebar4_mobile_column_single</custom-field>
+    <custom-field action="copy" label="Column 5 Sidebar?">_pofo_disable_footer_sidebar5_single</custom-field>
+    <custom-field action="copy" label="Column 5 Sidebar">_pofo_footer_sidebar5_single</custom-field>
+    <custom-field action="copy" label="Sidebar 5 Column ( Desktop )">_pofo_footer_sidebar5_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 5 Column ( Mini Desktop )">_pofo_footer_sidebar5_mini_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 5 Column ( Ipad )">_pofo_footer_sidebar5_ipad_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 5 Column ( Mobile )">_pofo_footer_sidebar5_mobile_column_single</custom-field>
+    <custom-field action="copy" label="Column 6 Sidebar?">_pofo_disable_footer_sidebar6_single</custom-field>
+    <custom-field action="copy" label="Column 6 Sidebar">_pofo_footer_sidebar6_single</custom-field>
+    <custom-field action="copy" label="Sidebar 6 Column ( Desktop )">_pofo_footer_sidebar6_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 6 Column ( Mini Desktop )">_pofo_footer_sidebar6_mini_desktop_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 6 Column ( Ipad )">_pofo_footer_sidebar6_ipad_column_single</custom-field>
+    <custom-field action="copy" label="Sidebar 6 Column ( Mobile )">_pofo_footer_sidebar6_mobile_column_single</custom-field>
+    <custom-field action="copy" label="Padding Style">_pofo_footer_padding_setting_single</custom-field>
+    <custom-field action="copy" label="Background Color">_pofo_footer_bg_color_single</custom-field>
+    <custom-field action="copy" label="Text Color">_pofo_footer_text_color_single</custom-field>
+    <custom-field action="copy" label="Link Color">_pofo_footer_link_color_single</custom-field>
+    <custom-field action="copy" label="Link Hover Color">_pofo_footer_link_hover_color_single</custom-field>
+    <custom-field action="copy" label="Vertical Separator Color">_pofo_footer_border_color_single</custom-field>
+    <custom-field action="copy" label="Widget Title Color">_pofo_footer_widget_title_color_single</custom-field>
+    <!-- Footer Bottom -->
+    <custom-field action="copy" label="Footer Bottom">_pofo_disable_footer_bottom_single</custom-field>
+    <custom-field action="copy" label="Style">_pofo_footer_bottom_style_single</custom-field>
+    <custom-field action="copy" label="Container Style">_pofo_footer_bottom_container_fluid_single</custom-field>
+    <custom-field action="copy" label="Left Part">_pofo_disable_footer_bottom_left_single</custom-field>
+    <custom-field action="translate" label="Left Text">_pofo_footer_bottom_left_text_single</custom-field>
+    <custom-field action="copy" label="Right Part">_pofo_disable_footer_bottom_right_single</custom-field>
+    <custom-field action="translate" label="Right Text">_pofo_footer_bottom_right_text_single</custom-field>
+    <custom-field action="copy" label="Padding Style">_pofo_footer_bottom_padding_setting_single</custom-field>
+    <custom-field action="copy" label="Left Text Font Size">_pofo_footer_bottom_left_text_font_size_single</custom-field>
+    <custom-field action="copy" label="Left Text Line Height">_pofo_footer_bottom_left_text_line_height_single</custom-field>
+    <custom-field action="copy" label="Left Text Character Spacing">_pofo_footer_bottom_left_text_letter_spacing_single</custom-field>
+    <custom-field action="copy" label="Right Text Font Size">_pofo_footer_bottom_right_text_font_size_single</custom-field>
+    <custom-field action="copy" label="Right Text Line Height">_pofo_footer_bottom_right_text_line_height_single</custom-field>
+    <custom-field action="copy" label="Right Text Character Spacing">_pofo_footer_bottom_right_text_letter_spacing_single</custom-field>
+    <custom-field action="copy" label="Background Color">_pofo_footer_bottom_bg_color_single</custom-field>
+    <custom-field action="copy" label="Text Color">_pofo_footer_bottom_text_color_single</custom-field>
+    <custom-field action="copy" label="Link Color">_pofo_footer_bottom_link_color_single</custom-field>
+    <custom-field action="copy" label="Link Hover Color">_pofo_footer_bottom_link_hover_color_single</custom-field>
+    <custom-field action="copy" label="Horizontal Separator Color">_pofo_footer_bottom_border_color_single</custom-field>
+    <!-- Footer Social Icon -->
+    <custom-field action="copy" label="Social Icons Section">_pofo_disable_footer_social_single</custom-field>
+    <custom-field action="copy" label="Social Text?">_pofo_disable_before_text_single</custom-field>
+    <custom-field action="translate" label="Social Text">_pofo_before_social_icons_text_single</custom-field>
+    <custom-field action="copy" label="Social Text Color">_pofo_footer_before_text_color_single</custom-field>
+    <custom-field action="copy" label="Social Icons Color">_pofo_footer_social_icon_color_single</custom-field>
+    <custom-field action="copy" label="Social Icons Hover Color">_pofo_footer_social_icon_hover_color_single</custom-field>
+    <!-- Single Post Layout -->
+    <custom-field action="copy" label="Post Layout Style">_pofo_post_layout_style_single</custom-field>
+    <custom-field action="copy" label="Category">_pofo_hide_category_single</custom-field>
+    <custom-field action="copy" label="Date">_pofo_hide_date_single</custom-field>
+    <custom-field action="copy" label="Date Format">_pofo_post_date_format_single</custom-field>
+    <custom-field action="copy" label="Author">_pofo_hide_author_single</custom-field>
+    <custom-field action="copy" label="Tags">_pofo_hide_tags_single</custom-field>
+    <custom-field action="copy" label="Like">_pofo_hide_like_single</custom-field>
+    <custom-field action="copy" label="Share">_pofo_hide_share_single</custom-field>
+    <custom-field action="copy" label="Share Style">_pofo_post_share_style_single</custom-field>
+    <custom-field action="copy" label="Navigation">_pofo_single_post_navigation_single</custom-field>
+    <custom-field action="copy" label="Author Box">_pofo_hide_post_author_box_single</custom-field>
+    <custom-field action="copy" label="Post Meta Text Transform">_pofo_single_post_meta_text_transform_single</custom-field>
+    <custom-field action="copy" label="Related Posts">_pofo_hide_related_posts_single</custom-field>
+    <custom-field action="copy" label="Column">_pofo_no_of_related_posts_columns_single</custom-field>
+    <custom-field action="translate" label="Related Post Title">_pofo_related_posts_title_single</custom-field>
+    <custom-field action="copy" label="No. of Posts">_pofo_no_of_related_posts_single</custom-field>
+    <custom-field action="copy" label="Post Date">_pofo_related_posts_hide_date_single</custom-field>
+    <custom-field action="copy" label="Date Format">_pofo_related_posts_date_format_single</custom-field>
+    <custom-field action="copy" label="Post Author">_pofo_related_posts_hide_author_single</custom-field>
+    <custom-field action="copy" label="Post Separator">_pofo_related_posts_separator_single</custom-field>
+    <custom-field action="copy" label="Excerpt Length">_pofo_related_post_excerpt_length_single</custom-field>
+    <!-- Page -->
+    <!-- Layout Settings -->
+    <custom-field action="copy" label="Sidebar Settings">_pofo_page_layout_setting_single</custom-field>
+    <custom-field action="copy" label="Left Sidebar">_pofo_page_left_sidebar_single</custom-field>
+    <custom-field action="copy" label="Right Sidebar">_pofo_page_right_sidebar_single</custom-field>
+    <custom-field action="copy" label="Container Style">_pofo_page_container_style_single</custom-field>
+    <custom-field action="copy" label="Main Section Top Space">_pofo_page_top_section_space_single</custom-field>
+    <custom-field action="copy" label="Main Section Bottom Space">_pofo_page_bottom_section_space_single</custom-field>
+    <custom-field action="copy" label="Body Background Image">_pofo_page_body_background_image_single</custom-field>
+    <custom-field action="copy" label="Body Background Size">_pofo_page_background_size_single</custom-field>
+    <custom-field action="copy" label="Body Background Position">_pofo_page_background_postion_single</custom-field>
+    <custom-field action="copy" label="Body Background Attachment">_pofo_page_background_attachment_single</custom-field>
+    <custom-field action="copy" label="Body Background Repeat">_pofo_page_background_repeat_single</custom-field>
+    <!-- Page Title -->
+    <custom-field action="copy" label="Title">_pofo_disable_page_title_single</custom-field>
+    <custom-field action="copy" label="Style">_pofo_page_title_style_single</custom-field>
+    <custom-field action="copy" label="Title Heading">_pofo_enable_page_title_heading_single</custom-field>
+    <custom-field action="copy" label="Title Animation">_pofo_disable_page_title_animation_single</custom-field>
+    <custom-field action="copy" label="Animation">_pofo_page_title_animation_single</custom-field>
+    <custom-field action="copy" label="Text Case">_pofo_page_title_text_transform_single</custom-field>
+    <custom-field action="copy" label="Subtitle">_pofo_disable_page_subtitle_single</custom-field>
+    <custom-field action="translate" label="Subtitle">_pofo_page_title_subtitle_single</custom-field>
+    <custom-field action="copy" label="Enable Background Image">_pofo_disable_page_title_image_single</custom-field>
+    <custom-field action="copy" label="Background Image">_pofo_page_title_bg_image_single</custom-field>
+    <custom-field action="copy" label="Background Gallery Images">_pofo_page_title_bg_multiple_image_single</custom-field>
+    <custom-field action="translate" label="Next Section ID">_pofo_page_title_callto_section_id_single</custom-field>
+    <custom-field action="copy" label="Video type">_pofo_page_title_video_type_single</custom-field>
+    <custom-field action="translate" label="MP4">_pofo_page_title_video_mp4_single</custom-field>
+    <custom-field action="translate" label="OGG">_pofo_page_title_video_ogg_single</custom-field>
+    <custom-field action="translate" label="WEBM">_pofo_page_title_video_webm_single</custom-field>
+    <custom-field action="translate" label="External video url">_pofo_page_title_video_youtube_single</custom-field>
+    <custom-field action="copy" label="Parallax effects">_pofo_page_title_parallax_effect_single</custom-field>
+    <custom-field action="copy" label="Page title Opacity">_pofo_page_title_opacity_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb">_pofo_disable_breadcrumb_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Heading">_pofo_enable_breadcrumb_heading_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Position">_pofo_page_breadcrumb_position_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Alignment">_pofo_page_breadcrumb_alignment_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Animation">_pofo_disable_page_breadcrumb_animation_single</custom-field>
+    <custom-field action="copy" label="Animation">_pofo_page_breadcrumb_animation_single</custom-field>
+    <custom-field action="copy" label="Title Font Size">_pofo_page_title_font_size_single</custom-field>
+    <custom-field action="copy" label="Title Line Height">_pofo_page_title_line_height_single</custom-field>
+    <custom-field action="copy" label="Title Letter Spacing">_pofo_page_title_letter_spacing_single</custom-field>
+    <custom-field action="copy" label="Subtitle Font Size">_pofo_page_subtitle_font_size_single</custom-field>
+    <custom-field action="copy" label="Subtitle Opacity">_pofo_page_subtitle_opacity_single</custom-field>
+    <custom-field action="copy" label="Subtitle Line Height">_pofo_page_subtitle_line_height_single</custom-field>
+    <custom-field action="copy" label="Subtitle Letter Spacing">_pofo_page_subtitle_letter_spacing_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Font Size">_pofo_page_breadcrumb_font_size_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Line Height">_pofo_page_breadcrumb_line_height_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Letter Spacing">_pofo_page_breadcrumb_letter_spacing_single</custom-field>
+    <custom-field action="copy" label="Opacity Color">_pofo_page_title_opacity_color_single</custom-field>
+    <custom-field action="copy" label="Background Color">_pofo_page_title_bg_color_single</custom-field>
+    <custom-field action="copy" label="Title Text Color">_pofo_page_title_color_single</custom-field>
+    <custom-field action="copy" label="Subtitle Text Color">_pofo_page_subtitle_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Background">_pofo_page_title_breadcrumb_bg_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Border">_pofo_page_title_breadcrumb_border_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Text Color">_pofo_page_title_breadcrumb_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Text Hover Color">_pofo_page_title_breadcrumb_text_hover_color_single</custom-field>
+    <!-- Comments Settings -->
+    <custom-field action="copy" label="Comments">_pofo_hide_page_comment_single</custom-field>
+    <!-- Portfolio -->
+    <!-- Layout Settings -->
+    <custom-field action="copy" label="Sidebar Settings">_pofo_single_portfolio_layout_setting_single</custom-field>
+    <custom-field action="copy" label="Left Sidebar">_pofo_single_portfolio_left_sidebar_single</custom-field>
+    <custom-field action="copy" label="Right Sidebar">_pofo_single_portfolio_right_sidebar_single</custom-field>
+    <custom-field action="copy" label="Container Style">_pofo_single_portfolio_container_style_single</custom-field>
+    <custom-field action="copy" label="Main Section Top Space">_pofo_single_portfolio_top_section_space_single</custom-field>
+    <custom-field action="copy" label="Main Section Bottom Space">_pofo_single_portfolio_bottom_section_space_single</custom-field>
+    <custom-field action="copy" label="Body Background Image">_pofo_portfolio_body_background_image_single</custom-field>
+    <custom-field action="copy" label="Body Background Size">_pofo_portfolio_background_size_single</custom-field>
+    <custom-field action="copy" label="Body Background Position">_pofo_portfolio_background_postion_single</custom-field>
+    <custom-field action="copy" label="Body Background Attachment">_pofo_portfolio_background_attachment_single</custom-field>
+    <custom-field action="copy" label="Body Background Repeat">_pofo_portfolio_background_repeat_single</custom-field>
+    <!-- Page Title -->
+    <custom-field action="copy" label="Title">_pofo_disable_single_portfolio_title_single</custom-field>
+    <custom-field action="copy" label="Style">_pofo_single_portfolio_title_style_single</custom-field>
+    <custom-field action="copy" label="Title Heading">_pofo_enable_single_portfolio_title_heading_single</custom-field>
+    <custom-field action="copy" label="Title Animation">_pofo_disable_single_portfolio_title_animation_single</custom-field>
+    <custom-field action="copy" label="Animation">_pofo_single_portfolio_title_animation_single</custom-field>
+    <custom-field action="copy" label="Text Case">_pofo_single_portfolio_title_text_transform_single</custom-field>
+    <custom-field action="copy" label="Subtitle">_pofo_disable_single_portfolio_subtitle_single</custom-field>
+    <custom-field action="translate" label="Subtitle">_pofo_single_portfolio_title_subtitle_single</custom-field>
+    <custom-field action="copy" label="Enable Background Image">_pofo_disable_single_portfolio_title_image_single</custom-field>
+    <custom-field action="copy" label="Background Image">_pofo_single_portfolio_title_bg_image_single</custom-field>
+    <custom-field action="copy" label="Background Gallery Images">_pofo_single_portfolio_title_bg_multiple_image_single</custom-field>
+    <custom-field action="translate" label="Next Section ID">_pofo_single_portfolio_title_callto_section_id_single</custom-field>
+    <custom-field action="copy" label="Video type">_pofo_single_portfolio_title_video_type_single</custom-field>
+    <custom-field action="translate" label="MP4">_pofo_single_portfolio_title_video_mp4_single</custom-field>
+    <custom-field action="translate" label="OGG">_pofo_single_portfolio_title_video_ogg_single</custom-field>
+    <custom-field action="translate" label="WEBM">_pofo_single_portfolio_title_video_webm_single</custom-field>
+    <custom-field action="translate" label="External video url">_pofo_single_portfolio_title_video_youtube_single</custom-field>
+    <custom-field action="copy" label="Parallax effects">_pofo_single_portfolio_title_parallax_effect_single</custom-field>
+    <custom-field action="copy" label="Page title Opacity">_pofo_single_portfolio_title_opacity_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb">_pofo_single_portfolio_disable_breadcrumb_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Heading">_pofo_single_portfolio_enable_breadcrumb_heading_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Position">_pofo_single_portfolio_title_breadcrumb_position_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Alignment">_pofo_single_portfolio_title_breadcrumb_alignment_single</custom-field>
+    <custom-field action="copy" label="Category">_pofo_portfolio_hide_category_single</custom-field>
+    <custom-field action="copy" label="Opacity Color">_pofo_single_portfolio_title_opacity_color_single</custom-field>
+    <custom-field action="copy" label="Background Color">_pofo_single_portfolio_title_bg_color_single</custom-field>
+    <custom-field action="copy" label="Title Text Color">_pofo_single_portfolio_title_color_single</custom-field>
+    <custom-field action="copy" label="Subtitle Text Color">_pofo_single_portfolio_subtitle_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Background">_pofo_single_portfolio_title_breadcrumb_bg_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Border">_pofo_single_portfolio_title_breadcrumb_border_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Text Color">_pofo_single_portfolio_title_breadcrumb_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Text Hover Color">_pofo_single_portfolio_title_breadcrumb_text_hover_color_single</custom-field>
+    <!-- Comments Settings -->
+    <custom-field action="copy" label="Comments">_pofo_hide_single_portfolio_comment_single</custom-field>
+    <!-- Single Portfolio Layout -->
+    <custom-field action="copy" label="Date">_pofo_portfolio_hide_date_single</custom-field>
+    <custom-field action="copy" label="Date Format">_pofo_portfolio_date_format_single</custom-field>
+    <custom-field action="copy" label="Author">_pofo_portfolio_hide_author_single</custom-field>
+    <custom-field action="copy" label="Category">_pofo_portfolio_enable_category_single</custom-field>
+    <custom-field action="copy" label="Tag">_pofo_portfolio_enable_tag_single</custom-field>
+    <custom-field action="copy" label="Share">_pofo_hide_single_portfolio_share_single</custom-field>
+    <custom-field action="translate" label="Share Heading">_pofo_single_portfolio_share_title_single</custom-field>
+    <custom-field action="copy" label="Share Box Background Color">_pofo_single_portfolio_share_box_bg_color_single</custom-field>
+    <custom-field action="copy" label="Share Box Title Color">_pofo_single_portfolio_share_box_title_color_single</custom-field>
+    <custom-field action="copy" label="Share Style">_pofo_portfolio_share_style_single</custom-field>
+    <custom-field action="copy" label="Related Portfolio">_pofo_hide_related_single_portfolio_single</custom-field>
+    <custom-field action="copy" label="Related Portfolio Display By">_pofo_related_single_portfolio_display_by_single</custom-field>
+    <custom-field action="copy" label="No. of Columns">_pofo_no_of_related_single_portfolio_columns_single</custom-field>
+    <custom-field action="translate" label="Title">_pofo_related_single_portfolio_title_single</custom-field>
+    <custom-field action="copy" label="Number of Portfolios">_pofo_no_of_related_single_portfolio_single</custom-field>
+    <custom-field action="translate" label="Content">_pofo_related_single_portfolio_content_single</custom-field>
+    <custom-field action="copy" label="Related Portfolio Subtitle Text Case">_pofo_related_single_portfolio_subtitle_text_transform_single</custom-field>
+    <custom-field action="copy" label="Related Portfolio Box Background Color">_pofo_related_single_portfolio_box_bg_color_single</custom-field>
+    <custom-field action="copy" label="Related Portfolio Box Title Color">_pofo_related_single_portfolio_title_text_color_single</custom-field>
+    <custom-field action="copy" label="Related Portfolio Box Content Color">_pofo_related_single_portfolio_content_color_single</custom-field>
+    <custom-field action="copy" label="Related Portfolio Background Color">_pofo_related_single_portfolio_bg_color_single</custom-field>
+    <custom-field action="copy" label="Related Portfolio Title Color">_pofo_related_single_portfolio_title_color_single</custom-field>
+    <custom-field action="copy" label="Related Portfolio Subtitle Color">_pofo_related_single_portfolio_subtitle_color_single</custom-field>
+    <!-- Pofo Portfolio Format Settings -->
+    <custom-field action="translate" label="Subtitle">_pofo_subtitle_single</custom-field>
+    <custom-field action="copy" label="Featured Image in Portfolio Page">_pofo_portfolio_featured_image_single</custom-field>
+    <custom-field action="translate" label="External Link">_pofo_portfolio_external_link_single</custom-field>
+    <custom-field action="copy" label="Target">_pofo_portfolio_link_target_single</custom-field>
+    <!-- Product -->
+    <!-- Pofo Product Settings -->
+    <custom-field action="copy" label="Title">_pofo_disable_single_product_title_single</custom-field>
+    <custom-field action="copy" label="Style">_pofo_single_product_title_style_single</custom-field>
+    <custom-field action="copy" label="Title Heading">_pofo_enable_single_product_title_heading_single</custom-field>
+    <custom-field action="copy" label="Title Animation">_pofo_disable_single_product_title_animation_single</custom-field>
+    <custom-field action="copy" label="Animation">_pofo_single_product_title_animation_single</custom-field>
+    <custom-field action="copy" label="Text Case">_pofo_single_product_title_text_transform_single</custom-field>
+    <custom-field action="copy" label="Subtitle">_pofo_disable_single_product_subtitle_single</custom-field>
+    <custom-field action="translate" label="Subtitle">_pofo_single_product_title_subtitle_single</custom-field>
+    <custom-field action="copy" label="Enable Background Image">_pofo_disable_single_product_title_image_single</custom-field>
+    <custom-field action="copy" label="Background Image">_pofo_single_product_title_bg_image_single</custom-field>
+    <custom-field action="copy" label="Background Gallery Images">_pofo_single_product_title_bg_multiple_image_single</custom-field>
+    <custom-field action="translate" label="Next Section ID">_pofo_single_product_title_callto_section_id_single</custom-field>
+    <custom-field action="copy" label="Video type">_pofo_single_product_title_video_type_single</custom-field>
+    <custom-field action="translate" label="MP4">_pofo_single_product_title_video_mp4_single</custom-field>
+    <custom-field action="translate" label="OGG">_pofo_single_product_title_video_ogg_single</custom-field>
+    <custom-field action="translate" label="WEBM">_pofo_single_product_title_video_webm_single</custom-field>
+    <custom-field action="translate" label="External video url">_pofo_single_product_title_video_youtube_single</custom-field>
+    <custom-field action="copy" label="Parallax effects">_pofo_single_product_title_parallax_effect_single</custom-field>
+    <custom-field action="copy" label="Page title Opacity">_pofo_single_product_title_opacity_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb">_pofo_single_product_disable_breadcrumb_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Heading">_pofo_single_product_enable_breadcrumb_heading_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Position">_pofo_single_product_title_breadcrumb_position_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Alignment">_pofo_single_product_title_breadcrumb_alignment_single</custom-field>
+    <custom-field action="copy" label="Opacity Color">_pofo_single_product_title_opacity_color_single</custom-field>
+    <custom-field action="copy" label="Background Color">_pofo_single_product_title_bg_color_single</custom-field>
+    <custom-field action="copy" label="Title Text Color">_pofo_single_product_title_color_single</custom-field>
+    <custom-field action="copy" label="Subtitle Text Color">_pofo_single_product_subtitle_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Background">_pofo_single_product_title_breadcrumb_bg_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Border">_pofo_single_product_title_breadcrumb_border_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Text Color">_pofo_single_product_title_breadcrumb_color_single</custom-field>
+    <custom-field action="copy" label="Breadcrumb Text Hover Color">_pofo_single_product_title_breadcrumb_text_hover_color_single</custom-field>
+
+  </custom-fields>
+  <shortcodes>
+    <shortcode>
+        <tag>pofo_accordion</tag>
+        <attributes>
+          <attribute type="area" encoding="urlencoded_json">pofo_accordion</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_alert_massage</tag>
+        <attributes>
+            <attribute>pofo_highliget_title</attribute>
+            <attribute>pofo_subtitle</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_blockquote</tag>
+        <attributes>
+            <attribute>content</attribute>
+            <attribute>pofo_author</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_button</tag>
+        <attributes>
+            <attribute type="link" encoding="vc_link">pofo_button_text</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_client_image_slider</tag>
+        <attributes>
+            <attribute type="area" encoding="urlencoded_json">pofo_image_slides</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_content_block</tag>
+        <attributes>
+            <attribute>pofo_block_title</attribute>
+            <attribute>pofo_block_subtitle</attribute>
+            <attribute>content</attribute>
+            <attribute type="link" encoding="vc_link">pofo_button_config</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_counter_or_skill</tag>
+        <attributes>
+            <attribute>title</attribute>
+            <attribute>number_postfix</attribute>
+            <attribute>pofo_link_url</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_feature_box</tag>
+        <attributes>
+            <attribute>pofo_feature_title</attribute>
+            <attribute>pofo_feature_subtitle</attribute>
+            <attribute>content</attribute>
+            <attribute type="link" encoding="vc_link">pofo_button_config</attribute>
+            <attribute>pofo_link_url</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_image_gallery</tag>
+        <attributes>
+            <attribute type="media-ids">image_gallery</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_slider</tag>
+        <attributes>
+            <attribute type="area" encoding="urlencoded_json">pofo_image_slides</attribute>
+            <attribute type="area" encoding="urlencoded_json">pofo_image_slides_style_seven</attribute>
+            <attribute type="link" encoding="vc_link">pofo_first_button_config</attribute>
+            <attribute type="link" encoding="vc_link">pofo_second_button_config</attribute>
+            <attribute>pofo_title</attribute>
+            <attribute>pofo_subtitle</attribute>
+            <attribute>pofo_fb_url</attribute>
+            <attribute>pofo_tw_url</attribute>
+            <attribute>pofo_gp_url</attribute>
+            <attribute>pofo_db_url</attribute>
+            <attribute>pofo_li_url</attribute>
+            <attribute>pofo_ig_url</attribute>
+            <attribute>pofo_tb_url</attribute>
+            <attribute>pofo_pi_url</attribute>
+            <attribute>pofo_yt_url</attribute>
+            <attribute>pofo_vm_url</attribute>
+            <attribute>pofo_sc_url</attribute>
+            <attribute>pofo_fk_url</attribute>
+            <attribute>pofo_rss_url</attribute>
+            <attribute>pofo_rd_url</attribute>
+            <attribute>pofo_bh_url</attribute>
+            <attribute>pofo_vine_url</attribute>
+            <attribute>pofo_gh_url</attribute>
+            <attribute>pofo_xing_url</attribute>
+            <attribute>pofo_vk_url</attribute>
+            <attribute>pofo_yelp_url</attribute>
+            <attribute>pofo_discord_url</attribute>
+            <attribute>pofo_email_url</attribute>
+            <attribute>pofo_skype_url</attribute>
+            <attribute>pofo_custom_link</attribute> 
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_lists</tag>
+        <attributes>
+            <attribute type="area" encoding="urlencoded_json">pofo_list_values</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_popup</tag>
+        <attributes>
+            <attribute>pofo_popup_button_title</attribute>
+            <attribute>pofo_inside_popup_title</attribute>
+            <attribute>content</attribute>
+            <attribute>pofo_dismiss_text</attribute>
+            <attribute>pofo_popup_youtube_url</attribute>
+            <attribute>pofo_popup_vimeo_url</attribute>
+            <attribute>pofo_popup_mp4_url</attribute>
+            <attribute>pofo_popup_webm_url</attribute>
+            <attribute>pofo_popup_ogg_url</attribute>
+            <attribute>pofo_popup_google_map_url</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_portfolio_filter</tag>
+        <attributes>
+            <attribute>pofo_show_all_text</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_portfolio_slider</tag>
+        <attributes>
+            <attribute>content</attribute>
+            <attribute>pofo_button_text</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_post_slider</tag>
+        <attributes>
+            <attribute>pofo_button_text</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_pricing_table</tag>
+        <attributes>
+            <attribute>sale_type</attribute>
+            <attribute>price</attribute>
+            <attribute>per_price</attribute>
+            <attribute>content</attribute>
+            <attribute type="link" encoding="vc_link">pofo_button_config</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_progress</tag>
+        <attributes>
+            <attribute type="area" encoding="urlencoded_json">pofo_progress_values</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_section_heading</tag>
+        <attributes>
+            <attribute>pofo_heading</attribute>
+            <attribute>pofo_link_url</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_social</tag>
+        <attributes>
+            <attribute>pofo_fb_url</attribute>
+            <attribute>pofo_tw_url</attribute>
+            <attribute>pofo_gp_url</attribute>
+            <attribute>pofo_db_url</attribute>
+            <attribute>pofo_li_url</attribute>
+            <attribute>pofo_ig_url</attribute>
+            <attribute>pofo_tb_url</attribute>
+            <attribute>pofo_pi_url</attribute>
+            <attribute>pofo_yt_url</attribute>
+            <attribute>pofo_vm_url</attribute>
+            <attribute>pofo_sc_url</attribute>
+            <attribute>pofo_fk_url</attribute>
+            <attribute>pofo_rss_url</attribute>
+            <attribute>pofo_rd_url</attribute>
+            <attribute>pofo_bh_url</attribute>
+            <attribute>pofo_vine_url</attribute>
+            <attribute>pofo_gh_url</attribute>
+            <attribute>pofo_xing_url</attribute>
+            <attribute>pofo_vk_url</attribute>
+            <attribute>pofo_yelp_url</attribute>
+            <attribute>pofo_discord_url</attribute>
+            <attribute>pofo_email_url</attribute>
+            <attribute>pofo_skype_url</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>vc_tabs</tag>
+        <attributes>
+            <attribute encoding="allow_html_tags">title</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_team_member</tag>
+        <attributes>
+            <attribute>pofo_member_name</attribute>
+            <attribute>pofo_member_des</attribute>
+            <attribute>content</attribute>
+            <attribute>pofo_link_url</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_team_member_slider</tag>
+        <attributes>
+            <attribute type="area" encoding="urlencoded_json">pofo_team_member_slides</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_testimonial</tag>
+        <attributes>
+            <attribute>pofo_member_name</attribute>
+            <attribute>pofo_member_des</attribute>
+            <attribute>contents</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_testimonial_slider</tag>
+        <attributes>
+            <attribute type="area" encoding="urlencoded_json">pofo_testimonial_slides</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_text_slider</tag>
+        <attributes>
+            <attribute type="area" encoding="urlencoded_json">pofo_text_slides</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_timer</tag>
+        <attributes>
+            <attribute>pofo_day_text</attribute>
+            <attribute>pofo_hour_text</attribute>
+            <attribute>pofo_minute_text</attribute>
+            <attribute>pofo_second_text</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>pofo_video_sound</tag>
+        <attributes>
+            <attribute>pofo_vimeo_id</attribute>
+            <attribute>pofo_youtube_url</attribute>
+            <attribute>mp4_video</attribute>
+            <attribute>ogg_video</attribute>
+            <attribute>webm_video</attribute>
+        </attributes>
+    </shortcode>
+    <shortcode>
+        <tag>vc_column_text</tag>
+        <attributes>
+            <attribute>content</attribute>
+        </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>
